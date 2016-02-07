@@ -8,10 +8,12 @@
 	background-size: cover;
 }
 
-.jumbotron .container p:first-child {
-  	font-family: "broken_detroid";
+
+.container a:link {
+	text-decoration: none;
 }
 
-.jumbotron .container a:link {
-	text-decoration: none;
+.cat-pic {
+	height: 200px;
+	width: 200px;
 }
