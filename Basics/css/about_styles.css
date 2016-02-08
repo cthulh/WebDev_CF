@@ -36,3 +36,52 @@
 	clear: both;
 	padding-top: 60px;
 }
+
+.column h2, .column h3, .into p {
+	-webkit-margin-before:0;
+}
+
+#skill-list {
+	margin-left: 50px;
+}
+
+body {
+	background-color: #fffeea;
+	color: #34495e;
+}
+
+.skills {
+	background-color: #5AD4C2;
+	color: #FFF;
+	padding: 20px 0;
+}
+
+/*Typography*/
+
+@font-face {
+    font-family: 'headliner45';
+    src: url("fonts/HeadlinerNo.45.ttf");
+}
+
+h1, h2, h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p, li {
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+.into p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+
+.skills h3 {
+	font-family: headliner45;
+	font-size: 3em;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
+}
