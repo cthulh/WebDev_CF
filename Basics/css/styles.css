@@ -8,12 +8,52 @@
 	background-size: cover;
 }
 
-
-.container a:link {
-	text-decoration: none;
-}
-
 .cat-pic {
 	height: 200px;
 	width: 200px;
+}
+
+.nav {
+	padding: 0 15px;
+}
+
+.nav a:link {
+	text-decoration: none;
+}
+
+.nav p {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	padding: 0 10px 50px 0px;
+	background-color: #262626;
+}
+
+.header p {
+	float: right;
+}
+
+.nav a {
+	color:white;
+}
+
+.nav a:visited {
+	color: white;
+}
+
+.letter {
+	border-style: black solid;
+	border-width: 1px;
+}
+
+.footer {
+	border-style: black solid;
+	border-width: 1px;
 }
