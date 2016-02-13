@@ -1,15 +1,61 @@
-html {
-	position: relative;
-	min-height: 100%
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
-body {
-	margin: 60px 0 100px 0;
+* {
+	box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'broken_detroid';
-    src: url("fonts/broken_detroid.ttf");
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 50px 0px;
+}
+
+.header h1 {
+	text-align: center;
+}
+
+
+.cat-pic {
+	width: 100%;
+}
+
+.column {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 20px 0 0 20px;
+}
+
+.image {
+	display: inline-block;
+	float: left;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 10px;
+	width: 800px;
+	font-size: 1.1em;
+}
+
+.column h2, .column h3, .into p {
+	-webkit-margin-before:0;
+}
+
+#skill-list {
+	margin-left: 50px;
+}
+
+.skills {
+	background-color: #5AD4C2;
+	color: #FFF;
 }
 
 .jumbotron {
@@ -18,12 +64,7 @@ body {
 }
 
 .cat-pic {
-	height: 200px;
-	width: 200px;
-}
-
-.nav {
-	padding: 0 15px;
+	width: 400px;
 }
 
 .nav a:link {
@@ -35,61 +76,59 @@ body {
 	margin: 0;
 }
 
-.footer p {
-	margin: 15px 0 0 0;
-
-}
-
 .nav h5 {
-	padding: 5px 0;
-	margin: 10px 0;
 	border-bottom-style: solid;
 	border-bottom-color: #fff;
+	border-width: 1px;
 }
 
 .col20 {
-	width: 20%;
-	float: right;
-	padding: 0 30px;
+	width: 30%;
+	display: inline-block;
 	font-size: 0.8em;
 }
 
 .copyright {
-	margin: 110px 0 0 0;
-	text-align: center;
 	width: 100%;
 	font-size: 0.8em;
-	font-weight: 600;
+	font-weight: 400;
+	clear: both;
+	text-align: center;
+	padding: 0;
 }
 
 .wrapper {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
+	min-height: 100%;
+	position: relative;
 	background-image: url("../img/arrow_wall.jpg");
-	background-size: cover
+	background-size: cover;
 }
 
 .header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 60px;
-	width: 100%;
-	padding: 0;
 	background-color: #262626;
-	margin: 0;
+}
+
+.content {
+	padding-bottom: 0;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100px
+	width: 100%;
+	background-color: #222222;
 }
 
 .header p {
 	font-size: 1.5em;
-	font-style: white;
+	font-color: #fff;
 	font-weight: 300;
 }
 
 .nav a {
-	color:#8c8c8c;
+	color: #8c8c8c;
 }
 
 .nav a:visited {
@@ -100,15 +139,100 @@ body {
 	color: white;
 }
 
-.letter {
-	border-style: black solid;
-	border-width: 1px;
+.mainbox {
+	min-height: 100%;
+	position: relative;
 }
 
-.footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
+.mainhead {
+	padding: 10px;
+	background-color: #dbdbdb;
+}
+
+.headbox {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.maincontent {
+	padding-bottom: 140px;
+	padding-left: 60px;
+}
+
+.mainfoot {
 	width: 100%;
-	background-color: #262626; 
+	background: #222222;
+	height: 140px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.mainfoot p, h5 {
+	padding: 10px 0 0 60px;
+	margin: 0;
+	color: #EDEDED;
+}
+
+.mainfoot h5 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#email, #phone, #address {
+	font-size: 0.8em;
+}
+
+div.mainfoot>div:first-child {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.sillycatpic {
+	height: 200px;
+	margin: 20px;
+}
+
+.maincontent h4 {
+	font-weight: 600;
+}
+
+.email, .phone, .address {
+	width: 700px;
+	padding: 20px 100px;
+	font-size: 1.2em;
+	float: left
+}
+
+.nav p {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+@font-face {
+    font-family: 'headliner45';
+    src: url("fonts/HeadlinerNo.45.ttf");
+}
+
+html {
+	font-family: Ubuntu, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: Ubuntu, Arial, sans-serif;
+}
+
+.into p {
+	font-family: Ubuntu, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+
+.skills h3 {
+	font-family: headliner45;
+	font-size: 3em;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
 }
