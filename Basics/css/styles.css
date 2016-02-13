@@ -1,3 +1,12 @@
+html {
+	position: relative;
+	min-height: 100%
+}
+
+body {
+	margin: 60px 0 100px 0;
+}
+
 @font-face {
     font-family: 'broken_detroid';
     src: url("fonts/broken_detroid.ttf");
@@ -20,31 +29,74 @@
 .nav a:link {
 	text-decoration: none;
 }
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
 
-.nav p {
-	display: inline-block;
-	margin-right: 40px;
+.footer p {
+	margin: 15px 0 0 0;
+
+}
+
+.nav h5 {
+	padding: 5px 0;
+	margin: 10px 0;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+
+.col20 {
+	width: 20%;
+	float: right;
+	padding: 0 30px;
+	font-size: 0.8em;
+}
+
+.copyright {
+	margin: 110px 0 0 0;
+	text-align: center;
+	width: 100%;
+	font-size: 0.8em;
+	font-weight: 600;
 }
 
 .wrapper {
+	padding: 0;
+	margin: 0;
 	width: 100%;
 	height: 100%;
+	background-image: url("../img/arrow_wall.jpg");
+	background-size: cover
 }
 
 .header {
-	padding: 0 10px 50px 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	padding: 0;
 	background-color: #262626;
+	margin: 0;
 }
 
 .header p {
-	float: right;
+	font-size: 1.5em;
+	font-style: white;
+	font-weight: 300;
 }
 
 .nav a {
-	color:white;
+	color:#8c8c8c;
 }
 
 .nav a:visited {
+	color: #8c8c8c;
+}
+
+.nav a:hover {
 	color: white;
 }
 
@@ -54,6 +106,9 @@
 }
 
 .footer {
-	border-style: black solid;
-	border-width: 1px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #262626; 
 }
