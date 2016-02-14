@@ -8,6 +8,10 @@ html, body {
 	box-sizing: border-box;
 }
 
+body {
+	padding-top: 65px;
+}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -67,19 +71,53 @@ html, body {
 	width: 400px;
 }
 
+.nav, .footnav {
+	background: #222222;
+}
+
 .nav a:link {
 	text-decoration: none;
 }
+
+.footnav a:link {
+	text-decoration: none;
+}
+
 .nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+.footnav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-.nav h5 {
+.footnav h5 {
 	border-bottom-style: solid;
 	border-bottom-color: #fff;
 	border-width: 1px;
+}
+
+.nav ul li {
+	display: inline-block;
+	letter-spacing: 0.05em;
+}
+
+.nav ul li a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+#navigation {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	top: 0;
+	padding: 20px 10px 20px;
 }
 
 .col20 {
@@ -129,6 +167,11 @@ html, body {
 
 .nav a {
 	color: #8c8c8c;
+	float: left;
+}
+
+.footnav a, .footnav a:visited {
+	color: #8c8c8c;
 }
 
 .nav a:visited {
@@ -137,6 +180,15 @@ html, body {
 
 .nav a:hover {
 	color: white;
+	font-weight: 600;
+	transition: color 300ms, font-weight 300ms;
+	-webkit-transition: color 300ms, font-weight 300ms;
+}
+
+.footnav a:hover {
+	color: white;
+	transition: color 300ms;
+	-webkit-transition: color 300ms;
 }
 
 .mainbox {
@@ -191,6 +243,9 @@ div.mainfoot>div:first-child {
 .sillycatpic {
 	height: 200px;
 	margin: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .maincontent h4 {
@@ -201,7 +256,6 @@ div.mainfoot>div:first-child {
 	width: 700px;
 	padding: 20px 100px;
 	font-size: 1.2em;
-	float: left
 }
 
 .nav p {
