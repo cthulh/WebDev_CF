@@ -242,7 +242,7 @@ div.mainfoot>div:first-child {
 
 .sillycatpic {
 	height: 200px;
-	margin: 20px;
+	margin: 137.5px 100px 0 0;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -268,6 +268,11 @@ div.mainfoot>div:first-child {
     src: url("fonts/HeadlinerNo.45.ttf");
 }
 
+@font-face {
+    font-family: 'azoft sans';
+    src: url("fonts/azoft-sans-bold.ttf");
+}
+
 html {
 	font-family: Ubuntu, Arial, sans-serif;
 }
@@ -288,5 +293,12 @@ h1, h2, h3 {
 	font-size: 3em;
 	font-weight: 100;
 	text-align: center;
+	text-transform: uppercase;
+}
+
+#navigation a {
+	font-family: "azoft sans", Helvetica, Georgia, sans-serif;
+	font-weight: 400;
+	padding: 0 20px;
 	text-transform: uppercase;
 }
