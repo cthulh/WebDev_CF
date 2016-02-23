@@ -170,11 +170,7 @@ body {
 	float: left;
 }
 
-.footnav a, .footnav a:visited {
-	color: #8c8c8c;
-}
-
-.nav a:visited {
+.footnav a, .footnav a:visited, .nav a:visited {
 	color: #8c8c8c;
 }
 
@@ -273,11 +269,7 @@ div.mainfoot>div:first-child {
     src: url("fonts/azoft-sans-bold.ttf");
 }
 
-html {
-	font-family: Ubuntu, Arial, sans-serif;
-}
-
-h1, h2, h3 {
+html,h1, h2, h3, h4 {
 	font-family: Ubuntu, Arial, sans-serif;
 }
 
