@@ -9,12 +9,14 @@ html, body {
 }
 
 body {
-	padding-top: 65px;
+	padding-top: 0px;
+	padding-bottom: 120px;
 }
 
 .container {
 	width: 80%;
 	margin: 0 auto;
+	padding-bottom: 140px;
 }
 
 .header {
@@ -113,7 +115,7 @@ body {
 }
 
 #navigation {
-	position: fixed;
+	position: block;
 	z-index: 10;
 	width: 100%;
 	top: 0;
@@ -151,7 +153,6 @@ body {
 }
 
 .footer {
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	height: 100px
@@ -254,7 +255,14 @@ div.mainfoot>div:first-child {
 	padding-left: 15px;
 }
 
+.panel {
+	width: 80%;
+	margin: 10px auto;
+}
 
+.group h4 {
+	padding: 10px;
+}
 
 
 /*###############Typography*/
