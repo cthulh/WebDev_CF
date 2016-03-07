@@ -278,6 +278,10 @@ div.mainfoot>div:first-child {
 	color: #000;
 }
 
+.panel a:hover, .panel a, .panel a:visited {
+	text-decoration: none;
+}
+
 
 /*###############Typography*/
 
