@@ -19,6 +19,10 @@ body {
 	padding-bottom: 140px;
 }
 
+.container-fluid {
+	padding:0;
+}
+
 .header {
 	padding: 50px 0px;
 }
@@ -26,7 +30,6 @@ body {
 .header h1 {
 	text-align: center;
 }
-
 
 .cat-pic {
 	width: 100%;
@@ -274,14 +277,6 @@ div.mainfoot>div:first-child {
 	color: #fff;
 }
 
-.faq-head h1 {
-	color: #000;
-}
-
-.panel a:hover, .panel a, .panel a:visited {
-	text-decoration: none;
-}
-
 
 /*###############Typography*/
 
@@ -339,4 +334,26 @@ html,h1, h2, h3, h4 {
 
 .panel-title {
 	font-weight: 300;
+}
+
+.faq-head h1 {
+	color: #000;
+}
+
+.panel a:hover, .panel a, .panel a:visited {
+	text-decoration: none;
+}
+
+.carousel-caption h1, .carousel-caption p {
+	color: black;
+	font-weight: 700;
+	font-family: Ubuntu, Arial, sans-serif; 
+}
+
+.carousel-caption h1 {
+	font-size: 3em;
+}
+
+.carousel-caption p {
+	font-size: 1.5em;
 }
