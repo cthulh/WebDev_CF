@@ -277,6 +277,16 @@ div.mainfoot>div:first-child {
 	color: #fff;
 }
 
+#work h1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#work img {
+	margin-bottom: 20px;
+}
+
+
 
 /*###############Typography*/
 
