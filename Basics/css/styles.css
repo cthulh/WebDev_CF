@@ -9,66 +9,19 @@ html, body {
 }
 
 body {
-	padding-top: 0px;
-	padding-bottom: 120px;
-	font-size: 120%
+	font-size: 140%
 }
 
 @media (max-width: 1000px) {
-	body {font-size: 100%;}
+	body {font-size: 120%;}
 }
 
 @media (max-width: 500px) {
 	body {font-size: 80%;}
 }
 
-.container {
-	width: 80%;
-	margin: 0 auto;
-	padding-bottom: 140px;
-}
-
 .container-fluid {
 	padding: 0;
-}
-
-.header {
-	padding: 50px 0px;
-}
-
-.header h1 {
-	text-align: center;
-}
-
-.cat-pic {
-	width: 100%;
-}
-
-.column {
-	display: inline-block;
-	float: left;
-	width: 30%;
-	padding: 20px 0 0 20px;
-}
-
-.image {
-	display: inline-block;
-	float: left;
-}
-
-.main-text {
-	clear: both;
-	padding-top: 10px;
-	width: 800px;
-	font-size: 1.1em;
-}
-
-.column h2, .column h3, .into p {
-	-webkit-margin-before:0;
-}
-
-#skill-list {
-	margin-left: 50px;
 }
 
 .skills {
@@ -79,10 +32,6 @@ body {
 .jumbotron {
 	background-image: url("../img/landscape_gray.jpg");
 	background-size: cover;
-}
-
-.cat-pic {
-	width: 400px;
 }
 
 .nav, .footnav {
@@ -101,19 +50,29 @@ body {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	float: right;
 }
 
 .footnav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	text-align: center;
+	font-size: 0.8em;
 }
 
 .footnav h5 {
 	border-bottom-style: solid;
 	border-bottom-color: #fff;
 	border-width: 1px;
+	text-align: center;
+	font-size: 0.9em;
+	padding-bottom: 5px;
+	letter-spacing: 0.05em;
+	color: #fff;
+}
+
+.footnav p {
+	margin-top: 0.8em;
 }
 
 .nav ul li {
@@ -134,14 +93,7 @@ body {
 	padding: 20px 10px 20px;
 }
 
-.col20 {
-	width: 30%;
-	display: inline-block;
-	font-size: 0.8em;
-}
-
 .copyright {
-	width: 100%;
 	font-size: 0.8em;
 	font-weight: 400;
 	clear: both;
@@ -149,33 +101,8 @@ body {
 	padding: 0;
 }
 
-.wrapper {
-	min-height: 100%;
-	position: relative;
-	background-image: url("../img/arrow_wall.jpg");
-	background-size: cover;
-}
-
-.header {
-	background-color: #262626;
-}
-
 .content {
 	padding-bottom: 0;
-}
-
-.footer {
-	bottom: 0;
-	left: 0;
-	height: 100px
-	width: 100%;
-	background-color: #222222;
-}
-
-.header p {
-	font-size: 1.5em;
-	font-color: #fff;
-	font-weight: 300;
 }
 
 .nav a {
@@ -200,11 +127,6 @@ body {
 	-webkit-transition: color 300ms;
 }
 
-.mainbox {
-	min-height: 100%;
-	position: relative;
-}
-
 .mainhead {
 	padding: 10px;
 	background-color: #dbdbdb;
@@ -220,37 +142,16 @@ body {
 	padding-left: 60px;
 }
 
-.mainfoot {
-	width: 100%;
-	background: #222222;
-	height: 140px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-.mainfoot p, h5 {
-	padding: 10px 0 0 60px;
-	margin: 0;
-	color: #EDEDED;
-}
-
-.mainfoot h5 {
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-}
-
-div.mainfoot>div:first-child {
-	width: 800px;
-	margin: 0 auto;
-}
-
 .sillycatpic {
 	height: 200px;
 	margin: 137.5px 100px 0 0;
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+.cat-pic {
+	height: 300px;
 }
 
 .email, .phone, .address {
@@ -286,13 +187,21 @@ div.mainfoot>div:first-child {
 	color: #fff;
 }
 
+#work {
+	margin-bottom: 3em;	
+}
+
 #work h1 {
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 2em;
 }
 
 #work img {
 	margin-bottom: 20px;
+}
+
+#navigation ul {
+	float: right;
 }
 
 
@@ -319,6 +228,11 @@ html,h1, h2, h3, h4 {
 	font-weight: 100;
 }
 
+.footnav a, .footnav h4, .footnav p {
+	font-weight: 500;
+	font-family: Helvetica, Arial, serif;
+}
+
 
 .skills h3 {
 	font-family: headliner45;
@@ -329,11 +243,12 @@ html,h1, h2, h3, h4 {
 }
 
 #navigation a {
-	font-family: "azoft sans", Helvetica, Georgia, sans-serif;
+	font-family: "azoft sans", Ubuntu, Georgia, sans-serif;
 	font-weight: 400;
 	padding: 0 20px;
 	text-transform: uppercase;
 }
+
 
 .maincontent h4 {
 	font-weight: 600;
