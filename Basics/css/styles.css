@@ -13,19 +13,19 @@ body {
 }
 
 @media (max-width: 1200px) {
-	body {font-size: 120%;}
+	body {font-size: 160%;}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-	body {font-size: 100%;}
+	body {font-size: 120%;}
 }
 
 @media (max-width: 767px) {
-	body {font-size: 90%;}
+	body {font-size: 110%;}
 }
 
 @media (max-width: 480px) {
-	body {font-size: 75%;}
+	body {font-size: 90%;}
 }
 
 .container-fluid {
@@ -148,7 +148,6 @@ body {
 
 .mainhead {
 	padding: 10px;
-	background-color: #dbdbdb;
 }
 
 .headbox {
@@ -211,7 +210,30 @@ body {
 	float: right;
 }
 
+#projects, #about, #contact, #faq {
+	padding: 5em 10em;
+}
 
+#faq {
+	background-color: #5b4182;
+}
+
+#projects {
+	background-color: #F0AD4E;
+}
+
+#about{
+	background-color: #00781F;
+	color: #fff;
+}
+
+#contact {
+	background-color: #ffe51e;
+}
+
+.mainhead h1 {
+	font-size: 350%;
+}
 
 /*###############Typography*/
 
