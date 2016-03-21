@@ -10,6 +10,7 @@ html, body {
 
 body {
 	font-size: 140%
+	position: relative;
 }
 
 @media (max-width: 1200px) {
