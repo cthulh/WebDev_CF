@@ -125,6 +125,20 @@ body {
 	padding-bottom: 0;
 }
 
+.cth a {
+	text-transform: uppercase;
+	color: purple;
+}
+
+.cth a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+
+.navbar-nav {
+	padding: 0 1em;
+}
+
 .nav a {
 	color: #8c8c8c;
 	float: left;
@@ -221,10 +235,6 @@ body {
 	margin-bottom: 20px;
 }
 
-#navigation ul {
-	float: right;
-}
-
 #projects, #about, #contact, #faq {
 	padding: 5em 10em;
 }
@@ -246,8 +256,28 @@ body {
 	background-color: #ffe51e;
 }
 
+#contactme {
+    background-image: url("../img/foggy-forest.jpe");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: yellow;
+    font-weight: 600;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    padding-top: 7em;
+    height: 50em;
+}
+
 .mainhead h1 {
 	font-size: 350%;
+}
+
+.findme {
+	padding-top: 8em;
+	padding-left: 30em;
+	color: #000;
 }
 
 /*###############Typography*/
@@ -286,13 +316,12 @@ html,h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
-#navigation a {
+nav a {
 	font-family: "azoft sans", Ubuntu, Georgia, sans-serif;
 	font-weight: 400;
 	padding: 0 20px;
 	text-transform: uppercase;
 }
-
 
 .maincontent h4 {
 	font-weight: 600;
@@ -306,7 +335,7 @@ html,h1, h2, h3, h4 {
 	font-size: 0.8em;
 }
 
-.email, .phone, .address {
+.email, .phone, .address, .findme {
 	font-size: 1.2em;
 }
 
