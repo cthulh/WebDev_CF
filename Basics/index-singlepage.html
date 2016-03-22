@@ -22,19 +22,22 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll" data-target=".nav">
-
-  <div class="nav" id="navigation" role="navigation">
-    <a href="#navigation">Home</a>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
-  </div>
-  <div class="container-fluid">
+  <body data-spy="scroll" data-target=".navbar">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> <!--navbar starts here-->
+    <div class="container-fluid" > <!-- nav container-->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#front">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div> <!-- nav -->
+    </div> <!-- end nav container-->
+  </nav> <!-- end navbar-->
+  <div class="container-fluid" id="front">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- indicators-->
       <ol class="carousel-indicators">
@@ -310,8 +313,9 @@
           <ul>
             <li><a href="#navigation">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="">Blog</a></li>
           </ul>
         </div>

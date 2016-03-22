@@ -105,7 +105,7 @@ body {
 }
 
 #navigation {
-	position: block;
+	position: fixed;
 	z-index: 10;
 	width: 100%;
 	top: 0;
@@ -136,9 +136,8 @@ body {
 
 .nav a:hover {
 	color: white;
-	font-weight: 600;
-	transition: color 300ms, font-weight 300ms;
-	-webkit-transition: color 300ms, font-weight 300ms;
+	transition: color 300ms;
+	-webkit-transition: color 300ms;
 }
 
 .footnav a:hover {
@@ -171,9 +170,24 @@ body {
 	padding-left: 15px;
 }
 
+.navbar {
+	margin: 0;
+	padding: 0;
+	min-height: 1em;
+	border: none;
+}
+
 .panel {
 	width: 80%;
 	margin: 10px auto;
+}
+
+.carousel-caption {
+	height: 50%;
+}
+
+.carousel-indicators {
+	height: 30%;
 }
 
 .group h4 {
