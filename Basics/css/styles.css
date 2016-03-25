@@ -128,11 +128,16 @@ body {
 .cth a {
 	text-transform: uppercase;
 	color: purple;
+	text-decoration: none;
 }
 
 .cth a:hover {
 	text-decoration: none;
 	color: yellow;
+}
+
+.cth a:visited {
+	text-decoration: none;
 }
 
 .navbar-nav {
