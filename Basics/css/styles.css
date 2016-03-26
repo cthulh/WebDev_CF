@@ -149,7 +149,7 @@ body {
 	float: left;
 }
 
-.footnav a, .footnav a:visited, .nav a:visited {
+.nav a:visited {
 	color: #8c8c8c;
 }
 
@@ -159,10 +159,14 @@ body {
 	-webkit-transition: color 300ms;
 }
 
-.footnav a:hover {
+.footnav a, .footnav a:visited,  {
 	color: white;
 	transition: color 300ms;
 	-webkit-transition: color 300ms;
+}
+
+.footnav a:hover {
+	color: yellow;
 }
 
 .mainhead {
@@ -310,6 +314,7 @@ html,h1, h2, h3, h4 {
 .footnav a, .footnav h4, .footnav p {
 	font-weight: 500;
 	font-family: Helvetica, Arial, serif;
+	color: #fff;
 }
 
 
