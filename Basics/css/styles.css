@@ -231,10 +231,6 @@ body {
 	color: #fff;
 }
 
-#work {
-	margin-bottom: 3em;	
-}
-
 #work h1 {
 	text-align: center;
 	padding-bottom: 2em;
@@ -342,11 +338,16 @@ nav a {
 }
 
 #email, #phone, #address {
-	font-size: 0.8em;
+	font-size: 1.8em;
 }
 
 .email, .phone, .address, .findme {
 	font-size: 1.2em;
+}
+
+.aboutme, .underhero, .questions, #work {
+	margin-top: 5em;
+	margin-bottom: 5em;
 }
 
 .panel-title {
