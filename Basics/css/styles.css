@@ -1,7 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	height: 100%;
+	border:0;
 }
 
 * {
@@ -29,8 +29,12 @@ body {
 	body {font-size: 90%;}
 }
 
-.container-fluid {
-	padding: 0;
+h1 {
+	font-size: 350%;
+}
+
+#front {
+	padding:0;
 }
 
 .cat-pic {
@@ -72,10 +76,6 @@ body {
 	margin: 0;
 	text-align: center;
 	font-size: 0.8em;
-}
-
-.footnav {
-	padding: 1.5em;
 }
 
 .footnav h5 {
@@ -201,16 +201,8 @@ body {
 }
 
 .panel {
-	width: 80%;
+	width: 90%;
 	margin: 10px auto;
-}
-
-.carousel-caption {
-	height: 50%;
-}
-
-.carousel-indicators {
-	height: 30%;
 }
 
 .group h4 {
@@ -236,12 +228,8 @@ body {
 	padding-bottom: 2em;
 }
 
-#work img {
-	margin-bottom: 20px;
-}
-
 #projects, #about, #contact, #faq {
-	padding: 5em 10em;
+	padding: 5em;
 }
 
 #faq {
@@ -280,8 +268,8 @@ body {
 }
 
 .findme {
-	padding-top: 8em;
-	padding-left: 30em;
+	padding-top: 5%;
+	padding-left: 30%;
 	color: #000;
 }
 
@@ -333,6 +321,14 @@ nav a {
 	font-weight: 600;
 }
 
+.flying_cats p {
+	color: black;
+}
+
+.flying_cats h1 {
+	color: pink;
+}
+
 .email span.glyphicon:hover, .phone span.glyphicon:hover, .address span.glyphicon:hover {
 	color: red;
 }
@@ -350,6 +346,10 @@ nav a {
 	margin-bottom: 5em;
 }
 
+#work img {
+	margin: 1em auto;
+}
+
 .panel-title {
 	font-weight: 300;
 }
@@ -363,7 +363,6 @@ nav a {
 }
 
 .carousel-caption h1, .carousel-caption p {
-	color: black;
 	font-weight: 700;
 	font-family: Ubuntu, Arial, sans-serif; 
 }
