@@ -204,9 +204,28 @@ h1 {
 	margin:5px 0;
 }
 
-.panel {
-	width: 90%;
-	margin: 10px auto;
+.group {
+	margin: 10px 0;
+}
+
+#resume {
+	width: 100%;
+	padding: 5px;
+	height: 500px;
+}
+
+.modal-section {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.modal-title {
+	display: inline;
+}
+
+.learn-more-btn {
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .group h4 {
@@ -268,6 +287,7 @@ h1 {
 /*Give the background a fixed position does it not scroll when you scroll*/
     background-size: cover;
 /*Have the background cover the entire div section*/
+    background-attachment: fixed;
     color: yellow;
     font-weight: 600;
 /*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
