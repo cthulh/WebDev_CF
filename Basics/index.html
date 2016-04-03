@@ -130,17 +130,17 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h2>Portfolio Concept</h2>
           <p>I very much like the idea of sliding "cards" as a construction concept, where the user mouses over elements and they come forward and brighten up as other dimmer down. Like a Marvell intro but maybe less flashy. I will look around for some examples...</p>
-          <p><a class="btn btn-default" href="#" role="button">More &raquo;</a></p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More what? I have no idea how to implement such design concept! One day!">More &raquo;</button>
         </div><!-- /col 1 -->
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h2>Project Goals</h2>
           <p>Currently making some small dev gains on the Career Foundry web development course, while working full time as a Distribution Planner at Brakes UK. This website is so far my only achievement, as I said "small gains". Dedicating 2h every morning and 1 whole day at the end of the week will yield significant results in a few months. </p>
-          <p><a class="btn btn-default" href="#" role="button">More &raquo;</a></p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="...yeah I need to study MORE!">More &raquo;</button>
        </div><!-- /col 2 -->
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h2>Personal Goals</h2>
           <p>I embarked on a new career path, delving into the tech, to become a web developer. The plan is to bring myself up to speed with building websites so I can start producing solutions for others as soon as possible. This I enjoy the most.</p>
-          <p><a class="btn btn-default" href="#" role="button">More &raquo;</a></p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="This guy eh? Start throwing your cash at him NOW!">More &raquo;</button>
         </div><!-- /col 3 -->
       </div><!-- /row 1 -->
       </div>
@@ -226,7 +226,7 @@
           <h3>Here are all the <span class="text-success">essential</span> details of the modern means of communication. Feel free to choose the <span class="text-danger">MOST OBSCURE</span>. I may answer.</h3>
     </div> <!-- /Contact divider -->
 
-    <div class="container-fluid" id="contactme" data-stellar-background-ratio="0.8" data-stellar-ratio="2"> <!-- contact section -->
+    <div class="container-fluid" id="contactme"> <!-- contact section -->
       <div class="row">
         <div class="col-xs-12 col-md-4">
         <div class="col-xs-9 email">
@@ -381,7 +381,7 @@
       </div> <!-- end of FAQ section -->
 
       <div class="mainhead headbox" id="social-media"> <!-- Social media divider -->
-          <h1>WHAT IS UP!! My F(R)iends!</h1>
+          <h1>WHAT IS UP!! My <span class="text-danger"><strong><a href="#" title="Do not click on this under any circumstances!" id="tooltip1">F(R)iends</a>!</strong></span></h1>
           <h3>This is a little snippet of my social media PRE-SENSE! The daily uploads, cashing in millions per clicks, fun clubs bursting in seams, bullet-proof carmageddon. Yeah, that's not me. But hey, I got a video for you, so don't cry.
           </h3>
           <div class="social pull-left">
@@ -434,7 +434,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script type="text/javascript">
-      $(#contactme).stellar();
+      $('#contactme').stellar();
+    </script>
+    <script>
+      $(function () {
+      $('#tooltip1').tooltip();
+      });
+      $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+      });
     </script>
     <script type="text/javascript">
       var $root = $('html, body');
