@@ -185,7 +185,7 @@ h1 {
 
 .email, .phone, .address {
 	width: 100%;
-	padding: 1.5em 7em;
+	padding: 1.5em 0 1.5em 3em;
 }
 
 .nav p {
@@ -198,6 +198,10 @@ h1 {
 	padding: 0;
 	min-height: 1em;
 	border: none;
+}
+
+.sbmt {
+	margin:5px 0;
 }
 
 .panel {
@@ -228,7 +232,7 @@ h1 {
 	padding-bottom: 2em;
 }
 
-#projects, #about, #contact, #faq {
+#projects, #about, #contact, #faq, #social-media {
 	padding: 5em;
 }
 
@@ -249,6 +253,14 @@ h1 {
 	background-color: #ffe51e;
 }
 
+#social-media {
+	background-color: #f1b8ff;
+}
+
+.media {
+	margin: 5em;
+}
+
 #contactme {
     background-image: url("../img/foggy-forest.jpe");
 /*Add a background image*/
@@ -260,7 +272,15 @@ h1 {
     font-weight: 600;
 /*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
     padding-top: 7em;
-    height: 50em;
+}
+
+.contactform {
+	width: 50%;
+	margin: 2em auto;
+}
+
+#message-box {
+
 }
 
 .mainhead h1 {
