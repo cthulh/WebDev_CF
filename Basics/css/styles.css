@@ -47,10 +47,6 @@ body {
 	margin: 2em auto;
 }
 
-.mainhead h1 {
-	font-size: 350%;
-}
-
 .findme {
 	padding-top: 5%;
 	padding-left: 30%;
@@ -216,11 +212,6 @@ body {
 	letter-spacing: 0.05em;
 }
 
-.nav ul li a {
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-}
-
 #navigation {
 	position: fixed;
 	z-index: 10;
@@ -362,53 +353,31 @@ h1 {
 .cth a {
 	text-transform: uppercase;
 	color: purple;
-	text-decoration: none;
 }
 
-.cth a:hover {
-	text-decoration: none;
+.cth a:hover, .footnav a:hover {
 	color: yellow;
 }
 
-.cth a:visited {
-	text-decoration: none;
-}
-
-.nav a:link {
-	text-decoration: none;
-}
-
-.footnav a:link {
+.footnav a:link, .nav a:link, .cth a, .cth a:visited, .cth a:hover, .panel a:hover, .panel a, .panel a:visited, .headbox a {
 	text-decoration: none;
 }
 
 .nav a {
 	color: #8c8c8c;
 	float: left;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 .nav a:visited {
 	color: #8c8c8c;
 }
 
-.nav a:hover {
+.footnav a, .footnav a:visited, .nav a:hover {
 	color: #fff;
 	transition: color 300ms;
 	-webkit-transition: color 300ms;
-}
-
-.footnav a, .footnav a:visited,  {
-	color: #fff;
-	transition: color 300ms;
-	-webkit-transition: color 300ms;
-}
-
-.footnav a:hover {
-	color: yellow;
-}
-
-.panel a:hover, .panel a, .panel a:visited {
-	text-decoration: none;
 }
 
 .footnav a {
@@ -425,6 +394,5 @@ nav a {
 }
 
 .headbox a {
-	text-decoration: none;
 	color: inherit;
 }
