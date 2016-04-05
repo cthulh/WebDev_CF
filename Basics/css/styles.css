@@ -1,3 +1,5 @@
+/*==================== Reset & Responsive screen ========== */
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -29,8 +31,30 @@ body {
 	body {font-size: 90%;}
 }
 
-h1 {
+/*==================== Layout - main content ========== */
+
+.group h4 {
+	padding: 10px;
+}
+
+#work h1 {
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.contactform {
+	width: 50%;
+	margin: 2em auto;
+}
+
+.mainhead h1 {
 	font-size: 350%;
+}
+
+.findme {
+	padding-top: 5%;
+	padding-left: 30%;
+	color: #000;
 }
 
 #front {
@@ -52,16 +76,109 @@ h1 {
 	background-size: cover;
 }
 
+.content {
+	padding-bottom: 0;
+}
+
+.mainhead {
+	padding: 10px;
+}
+
+.headbox {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.maincontent {
+	padding-bottom: 140px;
+	padding-left: 60px;
+}
+
+.email, .phone, .address {
+	width: 100%;
+	padding: 1.5em 0 1.5em 3em;
+}
+
+.sbmt {
+	margin:5px 0;
+}
+
+.group {
+	margin: 10px 0;
+}
+
+#resume {
+	width: 100%;
+	padding: 5px;
+	height: 500px;
+}
+
+.modal-section {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.modal-title {
+	display: inline;
+}
+
+.learn-more-btn {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.panel-body {
+	background-color: #ccb3ff;
+}
+
+.faq-head {
+	background-color: #800080;
+	color: #fff;
+}
+
+.panel-default>.panel-heading {
+	background-color: #330033;
+	color: #fff;
+}
+
+#projects, #about, #contact, #faq, #social-media {
+	padding: 5em;
+}
+
+#faq {
+	background-color: #5b4182;
+}
+
+#projects {
+	background-color: #F0AD4E;
+}
+
+#about{
+	background-color: #00781F;
+}
+
+#contact {
+	background-color: #ffe51e;
+}
+
+#social-media {
+	background-color: #f1b8ff;
+}
+
+.media {
+	margin: 5em;
+}
+
+#contactme {
+    background-image: url("../img/foggy-forest.jpe");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*==================== Layout - nav & footnav ========== */
+
 .nav, .footnav {
 	background: #222222;
-}
-
-.nav a:link {
-	text-decoration: none;
-}
-
-.footnav a:link {
-	text-decoration: none;
 }
 
 .nav ul {
@@ -121,71 +238,8 @@ h1 {
 	margin: 0 auto;
 }
 
-.content {
-	padding-bottom: 0;
-}
-
-.cth a {
-	text-transform: uppercase;
-	color: purple;
-	text-decoration: none;
-}
-
-.cth a:hover {
-	text-decoration: none;
-	color: yellow;
-}
-
-.cth a:visited {
-	text-decoration: none;
-}
-
 .navbar-nav {
 	padding: 0 1em;
-}
-
-.nav a {
-	color: #8c8c8c;
-	float: left;
-}
-
-.nav a:visited {
-	color: #8c8c8c;
-}
-
-.nav a:hover {
-	color: white;
-	transition: color 300ms;
-	-webkit-transition: color 300ms;
-}
-
-.footnav a, .footnav a:visited,  {
-	color: white;
-	transition: color 300ms;
-	-webkit-transition: color 300ms;
-}
-
-.footnav a:hover {
-	color: yellow;
-}
-
-.mainhead {
-	padding: 10px;
-}
-
-.headbox {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.maincontent {
-	padding-bottom: 140px;
-	padding-left: 60px;
-}
-
-.email, .phone, .address {
-	width: 100%;
-	padding: 1.5em 0 1.5em 3em;
 }
 
 .nav p {
@@ -200,123 +254,7 @@ h1 {
 	border: none;
 }
 
-.sbmt {
-	margin:5px 0;
-}
-
-.group {
-	margin: 10px 0;
-}
-
-#resume {
-	width: 100%;
-	padding: 5px;
-	height: 500px;
-}
-
-.modal-section {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.modal-title {
-	display: inline;
-}
-
-.learn-more-btn {
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-
-.group h4 {
-	padding: 10px;
-}
-
-.panel-body {
-	background-color: #ccb3ff;
-}
-
-.faq-head {
-	background-color: #800080;
-	color: white;
-}
-
-.panel-default>.panel-heading {
-	background-color: #330033;
-	color: #fff;
-}
-
-#work h1 {
-	text-align: center;
-	padding-bottom: 2em;
-}
-
-#projects, #about, #contact, #faq, #social-media {
-	padding: 5em;
-}
-
-#faq {
-	background-color: #5b4182;
-}
-
-#projects {
-	background-color: #F0AD4E;
-}
-
-#about{
-	background-color: #00781F;
-	color: #fff;
-}
-
-#contact {
-	background-color: #ffe51e;
-}
-
-#social-media {
-	background-color: #f1b8ff;
-}
-
-.media {
-	margin: 5em;
-}
-
-#contactme {
-    background-image: url("../img/foggy-forest.jpe");
-/*Add a background image*/
-    background-attachment: fixed;
-/*Give the background a fixed position does it not scroll when you scroll*/
-    background-size: cover;
-/*Have the background cover the entire div section*/
-    color: yellow;
-    font-weight: 600;
-/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
-}
-
-.headbox a {
-	text-decoration: none;
-	color: inherit;
-}
-
-.contactform {
-	width: 50%;
-	margin: 2em auto;
-}
-
-#message-box {
-
-}
-
-.mainhead h1 {
-	font-size: 350%;
-}
-
-.findme {
-	padding-top: 5%;
-	padding-left: 30%;
-	color: #000;
-}
-
-/*###############Typography*/
+/*==================== Typography ========== */
 
 @font-face {
     font-family: 'headliner45';
@@ -332,18 +270,17 @@ html,h1, h2, h3, h4 {
 	font-family: Ubuntu, Arial, sans-serif;
 }
 
-.into p {
-	font-family: Ubuntu, Arial, sans-serif;
-	font-size: 3em;
-	font-weight: 100;
+h1 {
+	font-size: 350%;
 }
 
-.footnav a, .footnav h4, .footnav p {
-	font-weight: 500;
-	font-family: Helvetica, Arial, serif;
-	color: #fff;
+.faq-head h1 {
+	color: #000;
 }
 
+.maincontent h4 {
+	font-weight: 600;
+}
 
 .skills h3 {
 	font-family: headliner45;
@@ -353,23 +290,22 @@ html,h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
-nav a {
-	font-family: "azoft sans", Ubuntu, Georgia, sans-serif;
-	font-weight: 400;
-	padding: 0 20px;
-	text-transform: uppercase;
+.flying_cats h1 {
+	color: pink;
 }
 
-.maincontent h4 {
-	font-weight: 600;
+.carousel-caption h1 {
+	font-size: 3em;
+}
+
+.into p {
+	font-family: Ubuntu, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
 }
 
 .flying_cats p {
 	color: black;
-}
-
-.flying_cats h1 {
-	color: pink;
 }
 
 .email span.glyphicon:hover, .phone span.glyphicon:hover, .address span.glyphicon:hover {
@@ -397,23 +333,98 @@ nav a {
 	font-weight: 300;
 }
 
-.faq-head h1 {
-	color: #000;
+.carousel-caption h1, .carousel-caption p {
+	font-weight: 700;
+	font-family: Ubuntu, Arial, sans-serif; 
+}
+
+.carousel-caption p {
+	font-size: 1.5em;
+}
+
+#about {
+	color: #fff;
+}
+
+#contactme {
+	color: yellow;
+    font-weight: 600;
+}
+
+.footnav h4, .footnav p {
+	font-weight: 500;
+	font-family: Helvetica, Arial, serif;
+	color: #fff;
+}
+
+/*==================== Links ========== */
+
+.cth a {
+	text-transform: uppercase;
+	color: purple;
+	text-decoration: none;
+}
+
+.cth a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+
+.cth a:visited {
+	text-decoration: none;
+}
+
+.nav a:link {
+	text-decoration: none;
+}
+
+.footnav a:link {
+	text-decoration: none;
+}
+
+.nav a {
+	color: #8c8c8c;
+	float: left;
+}
+
+.nav a:visited {
+	color: #8c8c8c;
+}
+
+.nav a:hover {
+	color: #fff;
+	transition: color 300ms;
+	-webkit-transition: color 300ms;
+}
+
+.footnav a, .footnav a:visited,  {
+	color: #fff;
+	transition: color 300ms;
+	-webkit-transition: color 300ms;
+}
+
+.footnav a:hover {
+	color: yellow;
 }
 
 .panel a:hover, .panel a, .panel a:visited {
 	text-decoration: none;
 }
 
-.carousel-caption h1, .carousel-caption p {
-	font-weight: 700;
-	font-family: Ubuntu, Arial, sans-serif; 
+.footnav a {
+	font-weight: 500;
+	font-family: Helvetica, Arial, serif;
+	color: #fff;
 }
 
-.carousel-caption h1 {
-	font-size: 3em;
+nav a {
+	font-family: "azoft sans", Ubuntu, Georgia, sans-serif;
+	font-weight: 400;
+	padding: 0 20px;
+	text-transform: uppercase;
 }
 
-.carousel-caption p {
-	font-size: 1.5em;
+.headbox a {
+	text-decoration: none;
+	color: inherit;
 }
