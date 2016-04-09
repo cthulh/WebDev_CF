@@ -171,12 +171,6 @@ body {
     background-size: cover;
 }
 
-/*==================== Contact form ========== */
-
-.form-control {
-	font-size: 1em;
-}
-
 /*==================== Layout - nav & footnav ========== */
 
 .nav, .footnav {
@@ -401,4 +395,14 @@ nav a {
 
 .headbox a {
 	color: inherit;
+}
+
+/*==================== Contact form ========== */
+
+.form-control {
+	font-size: 1em;
+}
+
+#char-count {
+	font-size: 0.8em;
 }
