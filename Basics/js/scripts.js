@@ -69,5 +69,23 @@ $(document).ready(function(){
       $('#char-count').css("color","black");
     };
   });
+// *************** works section
+  var i=0;
+  while (i<works.length) {
+    $('#work').append('<div class="col-xs-12 col-sm-6 col-md-3">\
+          <img src="' + works[i] + '" class="img-responsive">\
+        </div>\
+    ');
+    var images = $('#work img');
+    if (i % 2 === 0) {
+      $(images[i]).css("border", "2px solid DodgerBlue") 
+    } else {
+      $(images[i]).css("border", "2px solid salmon") 
+    }
+    i=i+1;
+  }
+    
 
+    
+    
 }); // end of document ready
