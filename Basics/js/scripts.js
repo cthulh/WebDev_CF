@@ -72,9 +72,13 @@ $(document).ready(function(){
 // *************** works section
   var i=0;
   while (i<works.length) {
-    $('#work').append('<div class="col-xs-12 col-sm-6 col-md-3">\
-          <img src="' + works[i] + '" class="img-responsive">\
-        </div>\
+    $('#work').append('\
+      <div class="col-xs-12 col-sm-6 col-md-3">\
+        <a href="'+works[i].url+'" class="work-img">\
+          <img src="' + works[i].pic + '" class="img-responsive">\
+          <span class="info"><p class="proj-title">Title: </p>' + works[i].title + '</span>\
+        </a>\
+      </div>\
     ');
     var images = $('#work img');
     if (i % 2 === 0) {
@@ -84,7 +88,12 @@ $(document).ready(function(){
     }
     i=i+1;
   }
-    
+   //************* project titles
+  $('.work-img').mouseenter(function(){
+    $('.info', this).show();
+  }).mouseleave(function(){
+    $('.info', this).hide();
+  }); 
 
     
     
