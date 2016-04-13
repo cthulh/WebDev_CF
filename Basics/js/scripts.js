@@ -1,3 +1,21 @@
+//google map
+
+var map;
+      function initMap() {
+        var myLatLng = {lat: 57.309993, lng: -4.444201}
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 8
+        });
+
+        var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'The is the little bugger!'
+        });
+      }
+
 // *************** facebook button
 (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

@@ -377,7 +377,8 @@
             <span class="monster">Last Seen Eating Bugs Off Park Benches</span>
           </div>
           <div class="col-xs-12 col-md-6 lochnessmap">
-          <iframe class="border-black-2-w-margin map-pic" height="450" width="600" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKTeiTcMWj0gRL5H-9MtJ19Q&key=AIzaSyCsu3rEUgrYP7kBnj98Kw3Ehp7BBNusVRI" allowfullscreen></iframe>
+          <div class="border-black-2-w-margin" id="map">
+          </div>
           </div>
       </div>
       </div>
@@ -417,5 +418,7 @@
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/work.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfeDP9JJq6H-mygszOmDcroxUR_0rXnl8&callback=initMap"
+    async defer></script>
   </body>
 </html>
