@@ -39,7 +39,6 @@ body {
 }
 
 #work h1 {
-	text-align: center;
 	padding-bottom: 2em;
 }
 
@@ -55,7 +54,7 @@ body {
 }
 
 #front {
-	padding:0;
+	padding: 0;
 }
 
 .cat-pic {
@@ -109,11 +108,6 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	padding: 5em;
-}
-
-.maincontent {
-	padding-bottom: 140px;
-	padding-left: 60px;
 }
 
 .email, .phone, .address {
@@ -327,10 +321,6 @@ h1 {
 	color: #000;
 }
 
-.maincontent h4 {
-	font-weight: 600;
-}
-
 .skills h3 {
 	font-family: headliner45;
 	font-size: 3em;
@@ -353,7 +343,7 @@ h1 {
 	font-weight: 100;
 }
 
-.flying_cats p {
+.black {
 	color: black;
 }
 
@@ -361,17 +351,12 @@ h1 {
 	color: red;
 }
 
-#email, #phone, #address {
-	font-size: 1.8em;
-}
-
 .email, .phone, .address, .findme {
 	font-size: 1.2em;
 }
 
-.aboutme, .underhero, .questions, #work {
-	margin-top: 5em;
-	margin-bottom: 5em;
+.margin-t-b-5em {
+	margin: 5em 0;
 }
 
 .panel-title {
