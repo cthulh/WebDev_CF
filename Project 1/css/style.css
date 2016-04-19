@@ -6,3 +6,71 @@ html, body, h1, h2, h3. h4, p, div {
 	font: inherit;
 	font-size: 100%;
 }
+
+
+/* layout */
+
+h1 {
+	text-align: center;
+	font-size: 150%;
+	font-weight: 600;
+}
+
+.calculator {
+	max-width: 320px;
+	margin: 20px auto;
+	background-color: white;
+}
+
+.screen {
+	background-color: white;
+	height: 60px;
+	border: #c9cccb solid 1px;
+	border-radius: 3%;
+}
+
+.screen h1 {
+	font-size: 250%;
+	text-align: right;	
+}
+
+.wrapper {
+	padding: 5px;
+	border: #c9cccb solid 1px;
+	border-radius: 3%;
+}
+
+.button {
+	padding: 5px;
+	background-color: #95DCD8;
+	border: white solid 2px;
+	border-radius: 8%;
+	font-size: 120%;
+}
+
+.button:active {
+	background-color: #81c6c2;
+} 
+
+.clear {
+	background-color: orange;
+	color: black;
+	font-weight: 900;
+	font-size: 150%;
+}
+
+.clear:active {
+	background-color: #ea8d12;
+}
+
+.back {
+	background-color: grey;
+	color: black;
+	font-weight: 900;
+	font-size: 150%;
+}
+
+.back:active {
+	background-color: #626363;
+}
+
