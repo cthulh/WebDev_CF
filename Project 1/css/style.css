@@ -6,16 +6,3 @@ html, body, h1, h2, h3. h4, p, div {
 	font: inherit;
 	font-size: 100%;
 }
-
-.twitter-follow-button {
-	padding: 5px;
-}
-
-.fb-like {
-	padding: 5px;
-	margin: 20px;
-}
-
-.middle {
-	margin: 10px, auto;
-}
